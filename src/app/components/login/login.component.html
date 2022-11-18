@@ -1,0 +1,59 @@
+<div class="main-div">
+
+    <mat-card class="container-card">
+
+        <img mat-card-image src="../../../assets/images/creoi-image-01.jpg" alt="Imagem tela de fundo"
+            class="login-background">
+
+        <!-- <div class="form" [formGroup]="formLogin" (ngSubmit)="login()"> -->
+            <form class="form" [formGroup]="formLogin" (ngSubmit)="login()">
+
+            <h3 class="form-label">Bem vindo!</h3>
+
+            <mat-form-field appearance="legacy">
+                <mat-label>Email</mat-label>
+                <input matInput placeholder="Digite seu email" formControlName="email" type="email">
+                <mat-icon matSuffix></mat-icon>
+                <mat-hint></mat-hint>
+            </mat-form-field>
+
+            <mat-form-field appearance="legacy">
+                <mat-label>Senha</mat-label>
+                <input matInput placeholder="Digite sua senha" formControlName="senha"  type="password">
+                <mat-icon matSuffix></mat-icon>
+                <mat-hint></mat-hint>
+            </mat-form-field>
+
+            <button mat-stroked-button type="submit" [disabled]="formLogin.invalid">Entrar</button>
+
+        </form>
+    </mat-card>
+
+</div>
+
+
+
+<!-- <div class="container">
+
+    <img src="../../../assets/images/creoi-image-01.jpg" alt="Imagem tela de fundo" class="login-background">
+
+    <div class="form">
+
+        <h3 class="form-label">Bem vindo!</h3>
+
+        <mat-form-field appearance="legacy">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Digite seu email" type="email">
+            <mat-icon matSuffix></mat-icon>
+            <mat-hint></mat-hint>
+        </mat-form-field>
+
+        <mat-form-field appearance="legacy">
+            <mat-label>Senha</mat-label>
+            <input matInput placeholder="Digite sua senha" type="password">
+            <mat-icon matSuffix></mat-icon>
+            <mat-hint></mat-hint>
+        </mat-form-field>
+
+    </div>
+</div> -->

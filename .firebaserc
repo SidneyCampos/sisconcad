@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "sisconcad2": {
+      "hosting": {
+        "sisconcad": [
+          "sisconcad2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "sisconcad2"
+  }
+}

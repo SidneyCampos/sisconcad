@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.mat-typography {
+    //background-color: green;
+    //display: flex;
+
+    padding-bottom: 2px;
+}
+
+.toolbar {
+    background-color: rgb(92, 107, 192);
+    display: flex;
+    //overflow-y: hidden;
+}
+
+.label {
+    color: white;
+    margin: 16px;
+}
+
+fieldset {
+    //background-color: red;
+    display: flex;
+
+    flex-wrap: wrap;
+    
+    justify-content: flex-start;
+    align-items: center;
+
+
+    margin: 15px;
+    border: solid 1px #ccc;
+    padding: 10px;
+    //min-width: 1105px;
+}
+
+
+
+.field {
+    margin: 20px;
+    //display: flex;
+    //flex-wrap: wrap;
+}
+
+.field:last-of-type{
+    width: 26vw;
+}
+
+// #anotacao{
+//     background-color:red;
+//     width: 26vw;
+// }
+
+.botao-submit {
+    left: 20px;
+    margin-bottom: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 144, 64);
+    display: flex;
+    height: 58px;
+    width: 120px;
+    color: white;
+    
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.botao-limpar {
+    left: 20px;
+    margin-bottom: 18px;
+    margin-left: 18px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    height: 58px;
+    width: 120px;
+    //color: white;
+    
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+
+.lister {
+    //background-color: yellow;
+    display: flex;
+    height: auto;
+    margin: 10px;
+    // width: 100vw;
+    // height: 100vh;
+}
+
+table {
+    background-color: rgb(242, 242, 242);
+    border: 1px solid;
+    border-color: whitesmoke;
+}
+
+table, th, td {
+    //background-color: yellowgreen;
+    //border: 1px groove;
+    border-collapse: collapse;
+    font-size: 1rem;
+    width: 100vw;
+}
+
+th {
+    height: 50px;
+    text-align: left;
+    //color: whitesmoke;
+    font-weight: 400;
+    color: whitesmoke;
+    background-color: rgb(92, 107, 192);
+    width: 100vw;
+}
+
+td {
+    height: 50px;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.botao-excluir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // background-color: red;
+    display: flex;
+    height: 64px;
+    width: 64px;
+    // color: white;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+tr:hover {
+    background-color: rgb(0, 144, 64);
+    color: whitesmoke;
+}
+
+tr:nth-child(even){
+    background-color: red;
+}
+
+// tr:nth-child(even):hover{
+//     background-color: rgb(0, 144, 64);
+// }
+
+.botao-excluir:hover {
+    color: red;
+}
+
+// ::ng-deep {
+
+//     .list {
+
+//         background-color: pink;
+//         overflow: auto;
+//     }
+
+//     .nav-list {
+//         background-color: cyan;
+//         display: flex;
+
+//     }
+
+//     .line {
+//         background-color: magenta;
+//         display: flex;
+//         width: 100%;
+//         justify-content: space-around;
+        
+//     }
+
+
+//     // #data-id {
+//     //     background-color: blue;
+//     //     display: flex;
+//     //     width: 100%;
+
+//     // }
+    
+//     // #data-nome {
+//     //     background-color: red;
+//     //     display: flex;
+//     //     width: 100%;
+//     // }
+    
+//     // #data-telefone {
+//     //     background-color: green;
+//     //     display: flex;
+//     //     width: 100%;
+//     // }
+// }
+
+
+
+// .data-space {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+
+// .data {
+//     display: flex;
+//     //background-color: green;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .data-space {
+//     display: flex;
+
+//     justify-content: start;
+//     align-items: center;
+// }
+
+// #data-id {
+//     display: flex;
+//     flex: 1;
+// }
+
+// #data-nome {
+//     display: flex;
+//     flex: 1;
+// }
+
+// #data-telefone {
+//     display: flex;
+//     flex: 1;
+// }
